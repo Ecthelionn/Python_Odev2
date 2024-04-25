@@ -20,5 +20,5 @@ for i in range(len(points)):
         dist = euclideanDistance(points[i], points[j])
         distances.append(dist)
 
-min_distance = min(distances)
+min_distance = round(min(distances),5)
 print("Minimum Distance is:", min_distance)
